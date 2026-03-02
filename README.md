@@ -11,7 +11,7 @@ fsutil file createnew C:\pentest\500gb_filled.dat 536870912000
 powershell -Command "(New-Object IO.FileStream('C:\pentest\500gb_filled.dat', 'Open', 'Write')).SetLength(536870912000);"
 ```
 
-## ⚠️ Warning 
+## Warning 
 
 Don't try on your own system it will crash your system 
 
